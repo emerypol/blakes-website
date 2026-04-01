@@ -12,42 +12,62 @@ function Home() {
                 bgImg="/src/assets/blake_homepage.jpg" />
 
             <div className="bg-[rgb(37,99,235)]">
-                <div className="px-4 md:px-0">
-                    <TwoBox box1={
-                        <div className="pb-3 md:pb-0 text-[clamp(30px,3vw,60px)] text-[rgb(97,218,255)]">
-                            Complete Irrigation Solutions. Dedicated to Perfection.
+                <div className=" flex justify-center items-center  py-10">
+                    <div className="container w-[90vw]">
+                        <TwoBox box1={
+                            <div className="pb-3 md:pb-0 text-[clamp(30px,3vw,60px)] text-[rgb(97,218,255)]">
+                                Complete Irrigation Solutions. Dedicated to Perfection.
+
+                            </div>
+                        }
+                            box2={<div className="text-[clamp(16px,1.5vw,22px)] text-white">
+                                The CLS fleet of equipment is state-of-the-art, providing our team with the best tools for every task. Our licensed, educated staff takes pride in solving even the most complex problems as we design, construct, and maintain beautiful landscapes for our clients here in West Michigan.
+
+                            </div>}
+                        />
+                    </div>
+
+                </div>
+                <div className=" py-5 md:py-10"></div>
+                <div className="flex justify-center items-center">
+                    < div className="container w-[88vw]" >
+                        <div className="rounded-xl p-2 bg-white ">
+                            <TwoBox box1GoesTop={false} color="white"
+                                box1={<HomeServices></HomeServices>}
+                                box2={
+                                    <div className=" h-100">
+                                        <img src="/services.jpg" className="w-full h-full object-contain"></img>
+                                    </div>
+                                }>
+
+                            </TwoBox>
 
                         </div>
-                    }
-                        box2={<div className="text-[clamp(16px,1.5vw,22px)] text-white">
-                            The CLS fleet of equipment is state-of-the-art, providing our team with the best tools for every task. Our licensed, educated staff takes pride in solving even the most complex problems as we design, construct, and maintain beautiful landscapes for our clients here in West Michigan.
-
-                        </div>}
-                    />
-                </div>
-                <div className="bg-[rgb(37,99,235)]  py-0 md:py-10"></div>
-                <TwoBox box1GoesTop={false} box1={<HomeServices></HomeServices>} box2={
-                    <div className=" h-100"><img src="/services.jpg" className="w-full h-full object-contain"></img></div>}></TwoBox>
-
-                <div className="flex justify-center items-center">
-                    <div className=" w-[80vw] md:w-auto">
-                        <TwoBox
-                            color="rgb(82, 214, 255)" rounded="full"
-                            box1={
-                                <div className="flex flex-col  whitespace-nowrap text-[clamp(28px,6vw,65px)]
-                                justify-center items-center md:items-end md:justify-end pt-6    text-white  ">
-                                    <div className=" leading-[.75] md:leading-[1.25] ">
-                                        Want a Quote?
-                                    </div>
-                                    <div className=" ">
-                                        Have a Question?
-                                    </div>
-                                </div>}
-                            box2={<HomeContactUs></HomeContactUs>}>
-                        </TwoBox>
                     </div>
                 </div>
 
+                <div className=" py-8 md:py-10"></div>
+
+
+                <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center rounded-lg bg-[rgb(82,214,255)] pt-4 pb-6 px-5">
+                        <TwoBox
+                            color="rgb(82, 214, 255)" rounded="full"
+                            box1={
+                                <div className="flex flex-col  whitespace-nowrap text-[clamp(28px,6vw,54px)]
+                                justify-center items-center md:items-start md:justify-start   pt-2 md:pt-0 text-white  ">
+                                    <div className=" leading-tight md:leading-[1.25] text-center ">
+                                        Want a Quote?
+                                    </div>
+                                    <div className=" text-center ">
+                                        Have a Question?
+                                    </div>
+                                </div>}
+                            box2={<div className="md:ps-8 md:pe-2 pt-4 md:pt-0"><HomeContactUs></HomeContactUs></div>}>
+                        </TwoBox>
+                    </div>
+                </div>
+                <div className=" py-8 md:py-10"></div>
                 <Footer></Footer>
 
             </div>

@@ -13,24 +13,6 @@ const rowAtClass: Record<Breakpoint, string> = {
     xxl: "xxl:flex-row",
 };
 
-const xSpaceAtClass: Record<Breakpoint, string> = {
-    xs: "xs:px-4",
-    sm: "sm:px-4",
-    md: "md:px-4",
-    lg: "lg:px-4",
-    xl: "xl:px-4",
-    xxl: "xxl:px-4",
-};
-
-const ySpaceAtClass: Record<Breakpoint, string> = {
-    xs: "xs:py-0",
-    sm: "sm:py-0",
-    md: "md:py-0",
-    lg: "lg:py-0",
-    xl: "xl:py-0",
-    xxl: "xxl:py-0",
-};
-
 
 const box1OrderClass = {
     xs: "order-2 xs:order-1",
@@ -88,11 +70,10 @@ function TwoBox({
         <div className={`w-full flex justify-center items-center ${roundedClasses[rounded]}`} style={{ backgroundColor: color }}>
             <div className='container px-4'>
                 <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center `}>
-                    <div className={`flex-1 box1 px-0 ${xSpaceAtClass[rowBreakpoint]} ${box1Order}`}>
+                    <div className={`flex-1 box1  ${box1Order}`}>
                         {box1}
                     </div>
-                    <div className={`flex-1 box2 py-4 ${ySpaceAtClass[rowBreakpoint]} px-0 ${xSpaceAtClass[rowBreakpoint]}
-                         ${box2Order} `}>
+                    <div className={`flex-1 box2 ${box2Order} `}>
                         {box2}
                     </div>
                 </div>
