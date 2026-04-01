@@ -56,6 +56,7 @@ type TwoBoxProps = {
     box1?: ReactNode;
     box2?: ReactNode;
     box1GoesTop?: boolean;
+    color?: string;
 };
 
 
@@ -64,13 +65,14 @@ function TwoBox({
     box1,
     box2,
     box1GoesTop = true,
+    color = "rgb(37, 99, 235)",
 }: TwoBoxProps) {
 
     const box1Order = box1GoesTop ? "" : box1OrderClass[rowBreakpoint];
     const box2Order = box1GoesTop ? "" : box2OrderClass[rowBreakpoint];
 
     return (
-        <div className='w-full flex justify-center items-center bg-blue-600 py-14 '>
+        <div className='w-full flex justify-center items-center  py-14 ' style={{ backgroundColor: color }}>
             <div className='container px-4'>
                 <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center `}>
                     <div className={`box1 px-0 ${xSpaceAtClass[rowBreakpoint]} ${box1Order}`}>
