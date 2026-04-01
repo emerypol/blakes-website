@@ -14,6 +14,14 @@ function Footer() {
                     <div className="text-center">
                         fakeemail@notemail.com
                     </div>
+                    <div className="flex flex-row justify-center items-center pt-3">
+                        <a href="https://facebook.com" className="pe-2" target="_blank" rel="noopener noreferrer" >
+                            <img src="/src/assets/facebook.png" className=" w-[32px] h-[32px] object-contain"></img>
+                        </a>
+                        <a href="https://instagram.com" className="ps-2" target="_blank" rel="noopener noreferrer">
+                            <img src="/src/assets/instagram.png" className=" w-[32px] h-[32px] object-contain"></img>
+                        </a>
+                    </div>
                 </div>
                 <div className="flex flex-1 flex-col items-center justify-center py-8 md:py-0  ">
                     <div className="text-center">
