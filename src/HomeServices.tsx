@@ -7,10 +7,10 @@ function HomeServices() {
         <>
 
             <div className="flex flex-col items-left justify-left">
-                <div className="text-[rgb(20,135,243)] text-[clamp(48px,5vw,84px)] font-bold" >
+                <div className="text-[rgb(97,218,255)] text-[clamp(48px,5vw,84px)] font-bold" >
                     Services
                 </div>
-                <div className="text-black text-[clamp(20px,1.5vw,26px)] pt-3" >
+                <div className="text-white text-[clamp(20px,1.5vw,26px)] pt-6" >
                     We service homeowners, businesses, commercial facilities, schools, and municipalities. Learn what we can do for you.
                 </div>
                 <Link
@@ -19,7 +19,8 @@ function HomeServices() {
                 >
                     <div className=" flex justify-start items-start ">
                         <div className="text-white text-[clamp(18px,1.5vw,24px)] 
-                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-3xl leading-tight">
+                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-3xl leading-tight
+                         mb-4 md:mb-0">
                             Our Services
                         </div>
                     </div>

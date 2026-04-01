@@ -8,7 +8,9 @@ function Home() {
 
             <div className="flex bg-red-500 h-[200px]" >Calabunga</div>
 
-            <HomeServices />
+
+            <TwoBox box1={<HomeServices></HomeServices>} box2={
+                <div className=" h-100"><img src="/services.jpg" className="w-full h-full object-contain"></img></div>}></TwoBox>
         </>
     );
 }
