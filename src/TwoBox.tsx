@@ -75,10 +75,10 @@ function TwoBox({
         <div className='w-full flex justify-center items-center  py-14 ' style={{ backgroundColor: color }}>
             <div className='container px-4'>
                 <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center `}>
-                    <div className={`box1 px-0 ${xSpaceAtClass[rowBreakpoint]} ${box1Order}`}>
+                    <div className={`flex-1 box1 px-0 ${xSpaceAtClass[rowBreakpoint]} ${box1Order}`}>
                         {box1}
                     </div>
-                    <div className={`box2 py-4 ${ySpaceAtClass[rowBreakpoint]} px-0 ${xSpaceAtClass[rowBreakpoint]}
+                    <div className={`flex-1 box2 py-4 ${ySpaceAtClass[rowBreakpoint]} px-0 ${xSpaceAtClass[rowBreakpoint]}
                          ${box2Order} `}>
                         {box2}
                     </div>

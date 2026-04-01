@@ -21,22 +21,17 @@ function Home() {
             <TwoBox box1GoesTop={false} box1={<HomeServices></HomeServices>} box2={
                 <div className=" h-100"><img src="/services.jpg" className="w-full h-full object-contain"></img></div>}></TwoBox>
 
-            <TwoBox box1={<HomeContactUs></HomeContactUs>}
-                box2={
-                    <Link
-                        to="/contact"
-                        className="  "
-                    >
-                        <div className=" flex justify-start items-start ">
-                            <div className="text-white text-[clamp(18px,1.5vw,24px)] 
-                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-3xl leading-tight
-                         mb-4 md:mb-0">
-                                Our Services
-                            </div>
-                        </div>
-                    </Link>
-                }>
+            <TwoBox box1={<div className="flex flex-col  whitespace-nowrap text-[clamp(32px,6vw,65px)] justify-center items-center md:items-end md:justify-end">
+                <div className=" leading-[1.25] ">
+                    Want a Quote?
+                </div>
+                <div className=" ">
+                    Have a Question?
+                </div>
+            </div>}
+                box2={<HomeContactUs></HomeContactUs>}>
             </TwoBox>
+
 
 
         </>
