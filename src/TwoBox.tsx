@@ -1,17 +1,59 @@
+import type { ReactNode } from 'react';
 import './TwoBox.css'
 
-function TwoBox() {
-    //const [count, setCount] = useState(0)
+const breakpoints = ["xs", "sm", "md", "lg", "xl", "xxl"] as const;
+type Breakpoint = typeof breakpoints[number];
+
+const rowAtClass: Record<Breakpoint, string> = {
+    xs: "xs:flex-row",
+    sm: "sm:flex-row",
+    md: "md:flex-row",
+    lg: "lg:flex-row",
+    xl: "xl:flex-row",
+    xxl: "xxl:flex-row",
+};
+
+const xSpaceAtClass: Record<Breakpoint, string> = {
+    xs: "xs:px-4",
+    sm: "sm:px-4",
+    md: "md:px-4",
+    lg: "lg:px-4",
+    xl: "xl:px-4",
+    xxl: "xxl:px-4",
+};
+
+const ySpaceAtClass: Record<Breakpoint, string> = {
+    xs: "xs:py-0",
+    sm: "sm:py-0",
+    md: "md:py-0",
+    lg: "lg:py-0",
+    xl: "xl:py-0",
+    xxl: "xxl:py-0",
+};
+
+
+type TwoBoxProps = {
+    rowBreakpoint?: Breakpoint;
+    box1?: ReactNode;
+    box2?: ReactNode;
+};
+
+
+function TwoBox({
+    rowBreakpoint = "md",
+    box1,
+    box2,
+}: TwoBoxProps) {
 
     return (
-        <div className='w-full h0'>
-            <div className='container mx-auto px-4'>
-                <div className="flex flex-wrap gap-4 justify-center ">
-                    <div className="box1">
-                        At West Coast Irrigation, we do it all and we have 5 stars. At CLS, we channel our love of nature into our work.
+        <div className='w-full flex justify-center items-center bg-blue-600 py-14 '>
+            <div className='container px-4'>
+                <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center `}>
+                    <div className={`box1 px-0 ${xSpaceAtClass[rowBreakpoint]}`}>
+                        {box1}
                     </div>
-                    <div className="box2">
-                        We are a family owned and operated business that has been serving the West Coast for over 20 years. We are committed to providing our customers with the best service possible. We are licensed, bonded, and insured. We are also a member of the Irrigation Association. We are dedicated to providing our customers with the best service possible. We are committed to providing our customers with the best service possible. We are licensed, bonded, and insured. We are also a member of the Irrigation Association. We achieve excellent irrigation solutions. We meet every new challenge with a determination to succeed, learn, and grow. Our team values hard work, excellence, and continued development. Most importantly, we strive for 100% client satisfaction.
+                    <div className={`box2 py-4 ${ySpaceAtClass[rowBreakpoint]} px-0 ${xSpaceAtClass[rowBreakpoint]} `}>
+                        {box2}
                     </div>
                 </div>
             </div>
