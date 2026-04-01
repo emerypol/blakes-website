@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function Footer() {
 
@@ -27,9 +28,11 @@ function Footer() {
                     <div className="text-center">
                         West Coast Irrigation
                     </div>
-                    <div className=" w-[180px] h-[120px]">
-                        <img src="" className="w-full h-full object-contain"></img>
-                    </div>
+
+                    <Link to="/home">
+                        <img src="" className="w-[180px] h-[120px] object-contain" />
+                    </Link>
+
                 </div>
                 <div className="flex flex-1  flex-col items-center justify-center  ">
                     <div className="text-center">
