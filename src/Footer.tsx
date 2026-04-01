@@ -30,7 +30,7 @@ function Footer() {
                     </div>
 
                     <Link to="/home">
-                        <img src="" className="w-[180px] h-[120px] object-contain" />
+                        <img src="/src/assets/blake_we_1.jpg" className="w-[180px] h-[120px] object-contain" />
                     </Link>
 
                 </div>

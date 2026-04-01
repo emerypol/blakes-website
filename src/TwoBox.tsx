@@ -51,12 +51,24 @@ const box2OrderClass = {
 } as const;
 
 
+
+const roundedClasses = {
+    sm: "rounded-sm",
+    md: "rounded-md",
+    lg: "rounded-lg",
+    xl: "rounded-xl",
+    "2xl": "rounded-2xl",
+    full: "rounded-full",
+};
+
+
 type TwoBoxProps = {
     rowBreakpoint?: Breakpoint;
     box1?: ReactNode;
     box2?: ReactNode;
     box1GoesTop?: boolean;
     color?: string;
+    rounded?: "sm" | "md" | "lg" | "xl" | "2xl" | "full";
 };
 
 
@@ -66,13 +78,14 @@ function TwoBox({
     box2,
     box1GoesTop = true,
     color = "rgb(37, 99, 235)",
+    rounded = "sm",
 }: TwoBoxProps) {
 
     const box1Order = box1GoesTop ? "" : box1OrderClass[rowBreakpoint];
     const box2Order = box1GoesTop ? "" : box2OrderClass[rowBreakpoint];
 
     return (
-        <div className='w-full flex justify-center items-center  py-14 ' style={{ backgroundColor: color }}>
+        <div className={`w-full flex justify-center items-center ${roundedClasses[rounded]}`} style={{ backgroundColor: color }}>
             <div className='container px-4'>
                 <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center `}>
                     <div className={`flex-1 box1 px-0 ${xSpaceAtClass[rowBreakpoint]} ${box1Order}`}>
