@@ -50,7 +50,7 @@ function Home() {
 
 
                 <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center rounded-lg bg-[rgb(82,214,255)] pt-4 pb-6 px-5">
+                    <div className="flex justify-center items-center rounded-lg bg-[rgb(82,214,255)] pt-4 pb-6 w-[88vw] md:w-auto md:px-3   ">
                         <TwoBox
                             color="rgb(82, 214, 255)" rounded="full"
                             box1={

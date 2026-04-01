@@ -1,30 +1,41 @@
 import NavAndLanding from "../NavAndLanding";
 import TwoBox from "../TwoBox";
 
+
+
 function About() {
     return (
         <>
             <NavAndLanding landMessage="WE LOVE WHAT WE DO, AND IT SHOWS."
                 bgImg="/src/assets/blake_we_2.jpg" />
 
-            <div className="bg-[rgb(37,99,235)]">
-                <div className=" flex justify-center items-center  py-10">
-                    <div className="container mx-auto px-6 ">
-                        <TwoBox box1={
-                            <div className="pb-3 md:pb-0 text-[clamp(24px,3.5vw,46px)]
-                             text-[rgb(97,218,255)] me-1">
-                                Irrigation, other irrigation adjacent thing, a list with a few more.
-                                We do it all. Complete solutions.
-
-                            </div>
-                        }
-                            box2={<div className="text-[clamp(14px,1.5vw,20px)] text-white
-                                md:ms-4">
-                                Servicing the West Michigan area for over 20 years, WCI has built a reputation for excellence in irrigation services.  From design and installation to maintenance and repairs, we offer comprehensive irrigation services tailored to meet the unique needs of each customer. With a commitment to quality and customer satisfaction, WCI is your trusted partner for all your irrigation needs in West Michigan.
-                            </div>}
-                        />
+            {/* TODO texture this */}
+            <div className="bg-[rgb(37,99,235)] py-10">
+                <div className="flex flex-row flex-wrap justify-center items-center">
+                    <div className="flex flex-col bg-red-700 rounded-2xl w-[300px] h-[400px] mx-2">
+                        <div className="title">
+                            West Coast Irrigation Services
+                        </div>
+                        <div className="desc">
+                            West Coast Irrigation Services provides professional, full-service irrigation and water management solutions throughout West Michigan. From custom system design and precision installation to expert repairs and seasonal maintenance, we deliver reliable solutions built for long-term performance.
+                        </div>
                     </div>
-
+                    <div className="flex flex-col bg-red-700 rounded-2xl w-[300px] h-[400px] mx-2 my-5">
+                        <div className="title">
+                            Serving Communities Across West Michigan
+                        </div>
+                        <div className="desc">
+                            We proudly provide irrigation services throughout Holland, Grand Haven, Zeeland, West Olive, and Saugatuck. With deep roots in the region, we understand the unique needs of West Michigan properties and are committed to delivering responsive, dependable service across the lakeshore communities we call home.
+                        </div>
+                    </div>
+                    <div className="flex flex-col bg-red-700 rounded-2xl w-[300px] h-[400px] mx-2">
+                        <div className="title">
+                            40 Years of Trusted Expertise
+                        </div>
+                        <div className="desc">
+                            For four decades, West Coast Irrigation Services has built a reputation for professionalism, reliability, and quality craftsmanship. Our extensive experience in water management enables us to handle every phase of an irrigation system with confidence, precision, and care.
+                        </div>
+                    </div>
                 </div>
             </div>
 
