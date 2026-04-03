@@ -57,7 +57,8 @@ function Home() {
                             color="transparent" rounded="full"
                             box1={
                                 <div className="flex flex-col  whitespace-nowrap text-[clamp(28px,6vw,54px)]
-                                justify-center items-center md:items-start md:justify-start   pt-2 md:pt-0 text-white  ">
+                                justify-center items-center md:items-start md:justify-start   pt-2 md:pt-0 text-white
+                                 [text-shadow:-1px_-1px_0_black,1px_-1px_0_black,-1px_1px_0_black,1px_1px_0_black]  ">
                                     <div className=" leading-tight md:leading-[1.25] text-center ">
                                         Want a Quote?
                                     </div>
