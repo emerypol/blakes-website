@@ -51,6 +51,7 @@ type TwoBoxProps = {
     box1GoesTop?: boolean;
     color?: string;
     rounded?: "sm" | "md" | "lg" | "xl" | "2xl" | "full";
+    bgImg?: string;
 };
 
 
@@ -59,21 +60,30 @@ function TwoBox({
     box1,
     box2,
     box1GoesTop = true,
-    color = "rgb(37, 99, 235)",
+    color = "",
     rounded = "sm",
+    bgImg = "",
 }: TwoBoxProps) {
 
     const box1Order = box1GoesTop ? "" : box1OrderClass[rowBreakpoint];
     const box2Order = box1GoesTop ? "" : box2OrderClass[rowBreakpoint];
 
     return (
-        <div className={`w-full flex justify-center items-center ${roundedClasses[rounded]}`} style={{ backgroundColor: color }}>
-            <div className='container px-4'>
-                <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center `}>
-                    <div className={`flex-1 box1  ${box1Order}`}>
+        <div className={`w-full h-full flex justify-center items-center ${roundedClasses[rounded]}`}
+            style={{
+                backgroundColor: color ? color : undefined,
+                ...(bgImg && {
+                    backgroundImage: `url(${bgImg})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }),
+            }}>
+            <div className='container  h-full'>
+                <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center h-full `}>
+                    <div className={`flex-1 box1   ${box1Order}`}>
                         {box1}
                     </div>
-                    <div className={`flex-1 box2 ${box2Order} `}>
+                    <div className={`flex-1 flex h-full box2 ${box2Order} `}>
                         {box2}
                     </div>
                 </div>
