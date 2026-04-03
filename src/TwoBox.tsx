@@ -68,7 +68,7 @@ function TwoBox({
 
     return (
         <div className={`w-full flex justify-center items-center ${roundedClasses[rounded]}`} style={{ backgroundColor: color }}>
-            <div className='container px-4'>
+            <div className='container '>
                 <div className={`flex flex-col ${rowAtClass[rowBreakpoint]} justify-center items-center `}>
                     <div className={`flex-1 box1  ${box1Order}`}>
                         {box1}
