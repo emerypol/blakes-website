@@ -8,7 +8,7 @@ function NavAndLanding({ landMessage = "", bgImg = "" }: NavAndLandingProps) {
     return (
         <>
 
-            <div className="w-full h-[90vh] relative  ">
+            <div className="w-full h-[86vh] relative  ">
                 <div className="absolute inset-0 bg-cover bg-center "
                     style={{ backgroundImage: `url(${bgImg})` }}>
                 </div>
