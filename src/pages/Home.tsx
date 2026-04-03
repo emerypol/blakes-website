@@ -12,7 +12,7 @@ function Home() {
     return (
         <>
             <NavAndLanding landMessage="THE BEST IRRIGATION SERVICE IN WEST MICHIGAN"
-                bgImg="/src/assets/blake_homepage.jpg" />
+                bgImg="/src/assets/blake_homepage_optimized.jpg" />
 
             <div className="">
                 <div className="flex justify-center items-center bg-[rgb(37,99,235)]">
@@ -39,7 +39,7 @@ function Home() {
 
 
 
-                <div className="bg-[url('/src/assets/white_bg_crop.jpg')] bg-cover  ">
+                <div className="bg-[url('/src/assets/white_bg_crop_2_optimized.jpg')] bg-cover  ">
                     <div className=" py-5 md:py-10"></div>
                     <div className="flex justify-center items-center">
                         < div className=" w-[88vw] max-w-[1320px]" >
