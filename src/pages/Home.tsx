@@ -11,8 +11,8 @@ function Home() {
             <NavAndLanding landMessage="THE BEST IRRIGATION SERVICE IN WEST MICHIGAN"
                 bgImg="/src/assets/blake_homepage.jpg" />
 
-            <div className="bg-[rgb(37,99,235)]">
-                <div className="flex justify-center items-center">
+            <div className="">
+                <div className="flex justify-center items-center bg-[rgb(37,99,235)]">
                     <div className=" flex justify-center items-center  py-10 max-w-[1320px]">
                         <div className="container w-[88vw]">
                             <TwoBox box1={
