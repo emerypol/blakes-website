@@ -16,12 +16,13 @@ function Home() {
                     <div className=" flex justify-center items-center  py-10 max-w-[1320px]">
                         <div className="container w-[88vw]">
                             <TwoBox box1={
-                                <div className="pb-3 md:pb-0 text-[clamp(30px,3vw,60px)] text-[rgb(97,218,255)]">
+                                <div className="pb-3 md:pb-0 text-[clamp(34px,3vw,48px)] text-[rgb(97,218,255)]
+                                     w-[90%]">
                                     Complete Irrigation Solutions. Dedicated to Perfection.
 
                                 </div>
                             }
-                                box2={<div className="text-[clamp(16px,1.5vw,22px)] text-white">
+                                box2={<div className="text-[clamp(14px,1.5vw,18px)] leading-[1.3] text-white w-[80%]">
                                     The CLS fleet of equipment is state-of-the-art, providing our team with the best tools for every task. Our licensed, educated staff takes pride in solving even the most complex problems as we design, construct, and maintain beautiful landscapes for our clients here in West Michigan.
 
                                 </div>}
@@ -33,19 +34,22 @@ function Home() {
                 <div className="flex justify-center items-center">
                     < div className=" w-[88vw] max-w-[1320px]" >
                         <div className="rounded-xl p-2 bg-white ">
-                            <TwoBox box1GoesTop={false} color="white"
-                                box1={<HomeServices></HomeServices>}
-                                box2={
+                            <div className="grid grid-cols-1 md:grid-cols-2 items-start">
+                                <div>
+                                    <HomeServices></HomeServices>
+                                </div>
+                                <div>
                                     <div className=" h-100">
                                         <img src="/src/assets/blake_we_3.jpg" className="w-full h-full object-cover"></img>
                                     </div>
-                                }>
-
-                            </TwoBox>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
                 </div>
+
+
 
                 <div className=" py-8 md:py-10"></div>
 

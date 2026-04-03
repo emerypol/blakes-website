@@ -8,11 +8,11 @@ function HomeServices() {
 
             <div className="flex flex-col items-center justify-center md:items-start 
             md:justify-start max-w-[90vw] ">
-                <div className="text-[rgb(20,135,243)] text-[clamp(60px,5vw,84px)] 
+                <div className="text-[rgb(20,135,243)] text-[clamp(50px,5vw,54px)] 
                 font-bold pt-5 md:pt-0 " >
                     Services
                 </div>
-                <div className="text-black text-[clamp(20px,1.5vw,26px)] pt-6
+                <div className="text-black text-[clamp(18px,1.5vw,22px)] pt-6
                  text-center md:text-start max-w-[80vw] leading-[1.5] " >
                     We service homeowners, businesses, commercial facilities, schools, and municipalities. Learn what we can do for you.
                 </div>
