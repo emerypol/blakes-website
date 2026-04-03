@@ -15,16 +15,18 @@ function Home() {
                 bgImg="/src/assets/blake_homepage_optimized.jpg" />
 
             <div className="">
-                <div className="flex justify-center items-center bg-[rgb(37,99,235)]">
+                <div className="flex justify-center items-center 
+                bg-[radial-gradient(circle,rgb(14,84,168),_#1487f3)]">
                     <div className=" flex justify-center items-center  py-12 max-w-[1320px]">
                         <div className="container w-[88vw]">
-                            <TwoBox box1={
-                                <div className="pb-3 md:pb-0 text-[clamp(34px,3vw,48px)] text-[rgb(97,218,255)]
+                            <TwoBox color="transparent"
+                                box1={
+                                    <div className="pb-3 md:pb-0 text-[clamp(34px,3vw,48px)] text-[rgb(97,218,255)]
                                      w-[90%]">
-                                    Complete Irrigation Solutions. Dedicated to Perfection.
+                                        Complete Irrigation Solutions. Dedicated to Perfection.
 
-                                </div>
-                            }
+                                    </div>
+                                }
                                 box2={<div className="text-[clamp(14px,1.5vw,18px)] leading-[1.3] text-white w-[80%]">
                                     The CLS fleet of equipment is state-of-the-art, providing our team with the best tools for every task. Our licensed, educated staff takes pride in solving even the most complex problems as we design, construct, and maintain beautiful landscapes for our clients here in West Michigan.
 
