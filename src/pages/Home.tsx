@@ -34,14 +34,15 @@ function Home() {
                 <div className="flex justify-center items-center">
                     < div className=" w-[88vw] max-w-[1320px]" >
                         <div className="rounded-xl p-2 bg-white ">
-                            <div className="grid grid-cols-1 md:grid-cols-2 items-start">
-                                <div>
-                                    <HomeServices></HomeServices>
+                            <div className="grid grid-cols-1 md:grid-cols-2  ">
+                                <div className="order-2 md:order-1">
+                                    <HomeServices />
                                 </div>
-                                <div>
-                                    <div className=" h-100">
-                                        <img src="/src/assets/blake_we_3.jpg" className="w-full h-full object-cover"></img>
-                                    </div>
+                                <div className="order-1 md:order-2 relative  ">
+                                    <img src="/src/assets/blake_we_3.jpg"
+                                        className="relative h-[60vh] w-full object-cover
+                                            md:absolute md:top-0 md:left-0 md:h-full md:w-full 
+                                            md:object-cover " />
                                 </div>
                             </div>
 
