@@ -51,9 +51,10 @@ function Home() {
 
 
                 <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center rounded-lg bg-[rgb(82,214,255)] pt-4 pb-6 w-[88vw] max-w-[1320px] md:px-3   ">
+                    <div className="flex justify-center items-center rounded-lg  pt-4 pb-6 w-[88vw] max-w-[1320px] md:px-3
+                                    bg-[url('/src/assets/blake_we_4_crop.jpg')] bg-cover bg-center   ">
                         <TwoBox
-                            color="rgb(82, 214, 255)" rounded="full"
+                            color="transparent" rounded="full"
                             box1={
                                 <div className="flex flex-col  whitespace-nowrap text-[clamp(28px,6vw,54px)]
                                 justify-center items-center md:items-start md:justify-start   pt-2 md:pt-0 text-white  ">
