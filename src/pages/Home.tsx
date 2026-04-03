@@ -34,28 +34,35 @@ function Home() {
                 <div className=" py-5 md:py-10"></div>
 
 
-                <HomeServices></HomeServices>
+                <div className="flex justify-center items-center">
+                    <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow 
+                    duration-300 max-w-[1320px] p-6 ">
+                        <HomeServices></HomeServices>
+                    </div>
+                </div>
 
                 <div className=" py-8 md:py-10"></div>
 
 
                 <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center rounded-lg pt-4 pb-6 w-[88vw] md:w-auto
-                             md:px-3 bg-[url('/src/assets/blakes_we_4_cropped.jpg')] bg-cover bg-center  ">
-                        <TwoBox
-                            box1={
-                                <div className="flex flex-col  whitespace-nowrap text-[clamp(28px,6vw,54px)]
+                    <div className="flex justify-center items-center w-full md:max-w-[1320px]   ">
+                        <div className="flex justify-center items-center rounded-lg pt-4 pb-6 w-full 
+                             md:px-3 bg-[url('/src/assets/blakes_we_4_cropped.jpg')] bg-cover bg-center max-w-[90vw]  ">
+                            <TwoBox
+                                box1={
+                                    <div className="flex flex-col  whitespace-nowrap text-[clamp(28px,6vw,54px)]
                                 justify-center items-center md:items-start md:justify-start   pt-2 md:pt-0
                                  text-white [text-shadow:-1px_-1px_0_black,1px_-1px_0_black,-1px_1px_0_black,1px_1px_0_black]  ">
-                                    <div className=" leading-tight md:leading-[1.25] text-center ">
-                                        Want a Quote?
-                                    </div>
-                                    <div className=" text-center ">
-                                        Have a Question?
-                                    </div>
-                                </div>}
-                            box2={<div className="md:ps-8 md:pe-2 pt-4 md:pt-0"><HomeContactUs></HomeContactUs></div>}>
-                        </TwoBox>
+                                        <div className=" leading-tight md:leading-[1.25] text-center ">
+                                            Want a Quote?
+                                        </div>
+                                        <div className=" text-center ">
+                                            Have a Question?
+                                        </div>
+                                    </div>}
+                                box2={<div className="md:ps-8 md:pe-2 pt-4 md:pt-0"><HomeContactUs></HomeContactUs></div>}>
+                            </TwoBox>
+                        </div>
                     </div>
                 </div>
 
