@@ -22,7 +22,7 @@ function HomeServices() {
                 >
                     <div className=" flex   ">
                         <div className="text-white text-[clamp(22px,1.75vw,28px)] 
-                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-3xl leading-tight
+                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-md leading-tight border-1 border-black
                          mb-4 md:mb-0">
                             Our Services
                         </div>

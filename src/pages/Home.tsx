@@ -42,7 +42,7 @@ function Home() {
                                     <img src="/src/assets/blake_we_3.jpg"
                                         className="relative h-[60vh] w-full object-cover
                                             md:absolute md:top-0 md:left-0 md:h-full md:w-full 
-                                            md:object-cover " />
+                                            md:object-cover rounded-md " />
                                 </div>
                             </div>
 
@@ -56,19 +56,22 @@ function Home() {
 
 
                 <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center rounded-lg  pt-4 pb-6 w-[88vw] max-w-[1320px] md:px-3
+                    <div className="flex justify-center items-center rounded-md  pt-4 pb-6 w-[88vw] max-w-[1320px] md:px-3
                                     bg-[url('/src/assets/blake_we_4_crop.jpg')] bg-cover bg-center   ">
                         <TwoBox
                             color="transparent" rounded="full"
                             box1={
-                                <div className="flex flex-col  whitespace-nowrap text-[clamp(28px,6vw,54px)]
-                                justify-center items-center md:items-start md:justify-start   pt-2 md:pt-0 text-white
+                                <div className="flex flex-col  whitespace-nowrap text-[clamp(26px,6vw,46px)] 
+                                md:text-[clamp(28px,4vw,54px)] 
+                                justify-center items-center md:items-end md:justify-start   pt-2 md:pt-0 text-white
                                  [text-shadow:-1px_-1px_0_black,1px_-1px_0_black,-1px_1px_0_black,1px_1px_0_black]  ">
-                                    <div className=" leading-tight md:leading-[1.25] text-center ">
-                                        Want a Quote?
-                                    </div>
-                                    <div className=" text-center ">
-                                        Have a Question?
+                                    <div className="flex flex-col justify-start">
+                                        <div className=" leading-tight md:leading-[1.25] text-center md:text-end ">
+                                            Want a Quote?
+                                        </div>
+                                        <div className="text-center md:text-end ">
+                                            Have a Question?
+                                        </div>
                                     </div>
                                 </div>}
                             box2={<div className="md:ps-8 md:pe-2 pt-4 md:pt-0"><HomeContactUs></HomeContactUs></div>}>

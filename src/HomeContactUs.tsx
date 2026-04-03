@@ -10,7 +10,7 @@ function HomeContactUs() {
             >
                 <div className=" flex justify-start items-start  ">
                     <div className="text-white text-[clamp(22px,2vw,32px)] 
-                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-3xl leading-tight border-2
+                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-md leading-tight border-2
                            whitespace-nowrap">
                         Contact Us
                     </div>
