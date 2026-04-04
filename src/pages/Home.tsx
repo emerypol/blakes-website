@@ -4,9 +4,7 @@ import HomeServices from "../HomeServices";
 import TwoBox from "../TwoBox";
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
-import rainempty from "/src/assets/raindrop_empty.jpg";
-import rainfull from "/src/assets/raindrop_filled.jpg";
-import facebook from "/src/assets/facebook.png";
+
 
 function Home() {
     return (
@@ -42,25 +40,56 @@ function Home() {
 
 
                 <div className="bg-[rgba(255, 255, 255, 0.8)] bg-cover  ">
+
+
+
                     <div className=" py-5 md:py-10"></div>
+
+
+
                     <div className="flex justify-center items-center">
-                        < div className=" w-[88vw] max-w-[1320px]" >
-                            <div className="rounded-2xl p-4 bg-white shadow-md border-1 border-[#e2e2e2] ">
-                                <div className="grid grid-cols-1 md:grid-cols-2  ">
-                                    <div className="order-2 md:order-1">
-                                        <HomeServices />
-                                    </div>
-                                    <div className="order-1 md:order-2 relative   ">
-                                        <img src="/src/assets/blake_we_3.jpg"
-                                            className="relative h-[60vh] w-full object-cover
-                                            md:absolute md:top-0 md:left-0 md:h-full md:w-full 
-                                            md:object-cover rounded-2xl   " />
-                                    </div>
+                        < div className=" w-[90vw] max-w-[1320px]" >
+                            <div className="rounded-lg  shadow-md border-1 border-[#e2e2e2] relative">
+                                <img
+                                    src="/src/assets/blake_we_3.jpg"
+                                    alt="Services"
+                                    className="w-full h-[60vh] object-cover rounded-lg"
+                                />
+                                <div className="absolute bottom-0 w-full p-8 pt-1 bg-[rgb(1,1,1,.6)] rounded-b-lg">
+                                    <h2 className=" text-[clamp(34px,3vw,44px)] font-semibold text-white mb-1">Services</h2>
+                                    <p className="text-md text-white leading-relaxed mb-5">
+                                        We serve homeowners, businesses, commercial facilities, schools,
+                                        and municipalities — find out what we can do for you.
+                                    </p>
+                                    <a href="/services"
+                                        className="inline-flex items-center gap-1.5 text-sm font-bold border border-white 
+                                    rounded-3xl px-4 py-2 text-white ">
+                                        Our services
+                                    </a>
                                 </div>
 
+                                <div className="absolute bottom-0 w-full">
+
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,7 +97,7 @@ function Home() {
 
 
                     <div className="flex justify-center items-center">
-                        <div className="flex justify-center items-center rounded-2xl  pt-4 pb-6 w-[88vw] max-w-[1320px] md:px-3
+                        <div className="flex justify-center items-center rounded-lg  pt-4 pb-6 w-[90vw] max-w-[1320px] md:px-3
                                     bg-[url('/src/assets/blake_we_4_crop.jpg')] bg-cover bg-center 
                                     shadow-lg border-2 border-white   ">
                             <TwoBox
