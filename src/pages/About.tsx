@@ -17,7 +17,7 @@ function About() {
                 <div className="flex justify-center">
                     <div className="max-w-[424px] sm:max-w-[620px] w-[90vw]">
                         <div className="flex flex-col sm:flex-row  rounded-2xl shadow-lg p-6 border border-[#e2e2e2] bg-white
-                                justify-center items-center ">
+                                justify-center items-center sm:items-start">
                             <img src="/src/assets/twitter.png"
                                 className="h-[120px] w-[120px] object-cover rounded-2xl" />
                             <div className="flex flex-col justify-center sm:justify-start px-5">
@@ -25,7 +25,8 @@ function About() {
                                         text-center sm:text-start pt-3 sm:pt-0">
                                     Blake Veltema
                                 </div>
-                                <div className="   text-center sm:text-start pb-2">
+                                <div className="text-white bg-[rgb(120,180,248)] text-center sm:text-start 
+                                        mb-2 ps-3 rounded-lg font-bold">
                                     Founder & Owner
                                 </div>
                                 <div className=" text-center sm:text-start">
