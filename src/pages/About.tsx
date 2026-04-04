@@ -14,38 +14,28 @@ function About() {
                 <AboutCards></AboutCards>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div className="flex justify-center py-10">
-                    <div className="w-[88vw] flex justify-center">
-                        <div className="max-w-[1320px] rounded-2xl shadow-lg p-4 border border-[#e2e2e2] bg-white
-                            flex flex-col md:flex-row sm:min-w-[300px] sm:max-w-[424px] md:max-w-auto text-wrap">
-                            <div className="text-[clamp(26px,2.5vw,34px)]">
-                                Our Founder
+                <div className="flex justify-center">
+                    <div className="max-w-[424px] sm:max-w-[620px] w-[90vw]">
+                        <div className="flex flex-col sm:flex-row  rounded-2xl shadow-lg p-6 border border-[#e2e2e2] bg-white
+                                justify-center items-center ">
+                            <img src="/src/assets/twitter.png"
+                                className="h-[120px] w-[120px] object-cover rounded-2xl" />
+                            <div className="flex flex-col justify-center sm:justify-start px-5">
+                                <div className="text-[rgba(11,93,185,0.9)] text-[clamp(5px,8vw,34px)] md:text-[34px] font-semibold
+                                        text-center sm:text-start pt-3 sm:pt-0">
+                                    Blake Veltema
+                                </div>
+                                <div className="   text-center sm:text-start pb-2">
+                                    Founder & Owner
+                                </div>
+                                <div className=" text-center sm:text-start">
+                                    Blake grew up from 0 years old into an adult. He currently lives in west michigan. He founded WCI in 2010. He's been doing this for over 10 years. Other sentences needed.
+                                </div>
                             </div>
-                            <div className="text-[16px]">
-                                Blake grew up from 0 years old into an adult. He currently lives in west michigan. He founded WCI in 2010. He's been doing this for over 10 years. Other sentences needed.
-                            </div>
-
-                            <img src="/src/assets/blake_we_3.jpg"
-                                className="relative  h-[480px] w-[280px] rounded-2xl border-4 border-[#2563eb] " />
                         </div>
                     </div>
                 </div>
+
 
             </div>
 
