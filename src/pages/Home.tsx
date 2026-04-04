@@ -41,11 +41,11 @@ function Home() {
 
 
 
-                <div className="bg-[url('/src/assets/white_bg_crop_2_optimized.jpg')] bg-cover  ">
+                <div className="bg-[rgba(255, 255, 255, 0.8)] bg-cover  ">
                     <div className=" py-5 md:py-10"></div>
                     <div className="flex justify-center items-center">
                         < div className=" w-[88vw] max-w-[1320px]" >
-                            <div className="rounded-lg p-4 bg-white shadow-md border-1 border-[#e2e2e2] ">
+                            <div className="rounded-2xl p-4 bg-white shadow-md border-1 border-[#e2e2e2] ">
                                 <div className="grid grid-cols-1 md:grid-cols-2  ">
                                     <div className="order-2 md:order-1">
                                         <HomeServices />
@@ -54,7 +54,7 @@ function Home() {
                                         <img src="/src/assets/blake_we_3.jpg"
                                             className="relative h-[60vh] w-full object-cover
                                             md:absolute md:top-0 md:left-0 md:h-full md:w-full 
-                                            md:object-cover rounded-lg border-4 border-[#2563eb] " />
+                                            md:object-cover rounded-2xl   " />
                                     </div>
                                 </div>
 
@@ -68,7 +68,7 @@ function Home() {
 
 
                     <div className="flex justify-center items-center">
-                        <div className="flex justify-center items-center rounded-lg  pt-4 pb-6 w-[88vw] max-w-[1320px] md:px-3
+                        <div className="flex justify-center items-center rounded-2xl  pt-4 pb-6 w-[88vw] max-w-[1320px] md:px-3
                                     bg-[url('/src/assets/blake_we_4_crop.jpg')] bg-cover bg-center 
                                     shadow-lg border-2 border-white   ">
                             <TwoBox
