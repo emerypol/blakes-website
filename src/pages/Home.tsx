@@ -49,11 +49,11 @@ function Home() {
 
                     <div className="flex justify-center items-center">
                         < div className=" w-[90vw] max-w-[1320px]" >
-                            <div className="rounded-lg  shadow-md border-1 border-[#e2e2e2] relative">
+                            <div className="rounded-lg relative">
                                 <img
                                     src="/src/assets/blake_we_3.jpg"
                                     alt="Services"
-                                    className="w-full h-[60vh] object-cover rounded-lg"
+                                    className="w-full h-[80vh] object-cover rounded-lg"
                                 />
                                 <div className="absolute bottom-0 w-full p-8 pt-1 bg-[rgb(1,1,1,.6)] rounded-b-lg">
                                     <h2 className=" text-[clamp(34px,3vw,44px)] font-semibold text-white mb-1">Services</h2>
@@ -97,27 +97,29 @@ function Home() {
 
 
                     <div className="flex justify-center items-center">
-                        <div className="flex justify-center items-center rounded-lg  pt-4 pb-6 w-[90vw] max-w-[1320px] md:px-3
-                                    bg-[url('/src/assets/blake_we_4_crop.jpg')] bg-cover bg-center 
-                                    shadow-lg border-2 border-white   ">
-                            <TwoBox
-                                color="transparent" rounded="full"
-                                box1={
-                                    <div className="flex flex-col  whitespace-nowrap text-[clamp(26px,6vw,46px)] 
-                                md:text-[clamp(28px,4vw,54px)] 
-                                justify-center items-center md:items-end md:justify-start   pt-2 md:pt-0 text-white
-                                 [text-shadow:-1px_-1px_0_black,1px_-1px_0_black,-1px_1px_0_black,1px_1px_0_black]  ">
-                                        <div className="flex flex-col justify-start">
-                                            <div className=" leading-tight md:leading-[1.25] text-center md:text-end ">
-                                                Want a Quote?
-                                            </div>
-                                            <div className="text-center md:text-end ">
-                                                Have a Question?
-                                            </div>
-                                        </div>
-                                    </div>}
-                                box2={<div className="md:ps-8 md:pe-2 pt-4 md:pt-0"><HomeContactUs></HomeContactUs></div>}>
-                            </TwoBox>
+                        <div className="flex flex-col md:flex-row rounded-lg 
+                                w-[90vw] md:w-[50vw] h-[50vh] md:h-[26vh] max-w-[1320px] relative
+                                bg-[url('/src/assets/blake_we_4_crop.jpg')] bg-cover bg-center 
+                                items-center justify-end">
+                            <div className="absolute inset-0 bg-black/25 z-0 rounded-lg" />
+
+                            <div className="flex flex-col text-[clamp(26px,6vw,46px)]  text-white md:ms-3 lg:ms-8 ">
+                                <div className="flex flex-col justify-start">
+                                    <div className="text-center md:text-start leading-tight z-1 md:text-[clamp(26px,3vw,44px)]
+                                     font-semibold
+                                    text-[clamp(28px,9vw,42px)] ">
+                                        Want a Quote?
+                                    </div>
+                                    <div className="text-[clamp(15px,4.5vw,19px)] md:text-start z-1 md:text-[clamp(14px,1.7vw,18px)]
+                                     ps-2 text-center">
+                                        We'd love to hear from you.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="pb-8 md:pb-0 pt-4 md:pt-4  md:ms-auto md:me-3 lg:me-8">
+                                <HomeContactUs />
+                            </div>
+
                         </div>
                     </div>
                     <div className=" py-8 md:py-10"></div>
