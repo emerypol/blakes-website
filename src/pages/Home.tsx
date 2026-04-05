@@ -98,7 +98,7 @@ function Home() {
 
                     <div className="flex justify-center items-center">
                         <div className="flex flex-col md:flex-row rounded-lg 
-                                w-[90vw] md:w-[50vw] h-[50vh] md:h-[26vh] max-w-[1320px] relative
+                                w-[90vw] md:w-[50vw] h-[30vh] md:h-[26vh] max-w-[1320px] relative
                                 bg-[url('/src/assets/blake_we_4_crop.jpg')] bg-cover bg-center 
                                 items-center justify-end">
                             <div className="absolute inset-0 bg-black/25 z-0 rounded-lg" />
