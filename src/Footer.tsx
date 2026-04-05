@@ -10,10 +10,10 @@ function Footer() {
             <div className="flex flex-col md:flex-row py-12  w-[90vw] lg:w-[70vw]    " >
                 <div className="flex flex-1   flex-col items-center justify-center  ">
                     <div className="text-center">
-                        999-999-9999
+                        (616) 510-3424
                     </div>
                     <div className="text-center">
-                        fakeemail@notemail.com
+                        blake@wcoastirrigation.com
                     </div>
                     <div className="flex flex-row justify-center items-center pt-3">
                         <a href="https://facebook.com" className="pe-2" target="_blank" rel="noopener noreferrer" >
@@ -25,20 +25,16 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex flex-1 flex-col items-center justify-center py-8 md:py-0  ">
-                    <div className="text-center">
-                        West Coast Irrigation
-                    </div>
-
                     <Link to="/home">
-                        <img src="/src/assets/blake_we_1.jpg" className="w-[180px] h-[120px] object-contain" />
+                        <img src="/src/assets/WCI_logo_crop_1.jpg" className="w-[250px] h-[100px] object-cover rounded-md" />
                     </Link>
 
                 </div>
-                <div className="flex flex-1  flex-col items-center justify-center  ">
+                <div className="flex flex-1  flex-col items-center justify-center leading-tight  ">
                     <div className="text-center">
-                        99999 Fake Address St, Holland MI 9999
+                        6713 Wildwood Drive, <br />West Olive, MI 49460
                     </div>
-                    <div className="text-center">
+                    <div className="text-center leading-tight mt-2 text-[14px]">
                         Trademark of West Coast Irrigation, Inc. © 2024 All rights reserved.
                     </div>
 
