@@ -31,7 +31,7 @@ function AboutCards() {
         <>
             <div className=" py-12 flex justify-center">
                 <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center items-center md:items-start max-w-[1320px] w-[88vw]">
-                    {cards.map((item, index) => (
+                    {cards.map((item) => (
                         <div
                             className="flex flex-col flex-1 bg-[rgba(11,93,185,0.9)] rounded-2xl sm:min-w-[300px] max-w-[424px]
                      shadow-lg px-6 py-6 border border-[#e2e2e2] justify-start items-start text-white"

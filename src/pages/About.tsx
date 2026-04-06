@@ -2,9 +2,7 @@ import AboutCards from "../AboutCards";
 import Footer from "../Footer";
 import FounderCard from "../FounderCard";
 import NavAndLanding from "../NavAndLanding";
-import TwoBox from "../TwoBox";
 
-import whitebg from "/src/assets/white_bg_crop_3.jpg"
 function About() {
     return (
         <>
