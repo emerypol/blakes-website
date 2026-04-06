@@ -2,7 +2,7 @@ import AboutCards from "../AboutCards";
 import Footer from "../Footer";
 import FounderCard from "../FounderCard";
 import NavAndLanding from "../NavAndLanding";
-import bg from "/src/assets/blake_we_2.jpg";
+import bg from "/src/assets/blake_we_2_optimized.jpg";
 
 function About() {
     return (

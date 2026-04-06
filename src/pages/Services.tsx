@@ -1,7 +1,7 @@
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
 import ServiceIcons from "../ServiceIcons";
-import bg from "/src/assets/blake_we_2.jpg";
+import bg from "/src/assets/blake_we_2_optimized.jpg";
 
 function Services() {
     return (
