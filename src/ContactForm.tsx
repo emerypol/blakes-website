@@ -83,6 +83,12 @@ function ContactForm() {
                 </div>
 
                 <div className="mb-4">
+                    <label className="block text-xs lg:text-sm text-gray-500 mb-1">Address</label>
+                    <input type="tel" placeholder="123 Main St, Grand Rapids, MI 49503"
+                        className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base" />
+                </div>
+
+                <div className="mb-4">
                     <label className="block text-xs lg:text-sm text-gray-500 mb-1">Service needed</label>
                     <select defaultValue={""}
                         className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base appearance-none">
