@@ -1,35 +1,41 @@
 import { Link } from "react-router-dom";
 import './HomeServices.css'
+import b3 from "/src/assets/blake_we_3.jpg";
+
 
 function HomeServices() {
 
     return (
-        <>
-
-            <div className="flex flex-col items-center justify-center md:items-start 
-            md:justify-start max-w-[90vw] ">
-                <div className="text-[rgb(20,135,243)] text-[clamp(50px,5vw,54px)] 
-                font-bold pt-2 md:pt-0  " >
-                    Services
-                </div>
-                <div className="text-black text-[clamp(18px,1.5vw,22px)] pt-1 md: pt-0 pb-2 md:pb-0
-                 text-center md:text-start   leading-[1.5] w-[90%] " >
-                    We service homeowners, businesses, commercial facilities, schools, and municipalities. Learn what we can do for you.
-                </div>
-                <Link
-                    to="/services"
-                    className="pt-2 md:pt-4"
-                >
-                    <div className=" flex   ">
-                        <div className="text-white text-[clamp(22px,1.75vw,28px)] 
-                        font-bold bg-[rgb(20,135,243)] py-2 px-4 rounded-[400px] leading-tight  
-                         mb-4 md:mb-0">
-                            Our Services
-                        </div>
+        <div className="flex justify-center items-center">
+            < div className=" w-[90vw] max-w-[1320px]" >
+                <div className="rounded-lg relative">
+                    <img
+                        src={b3}
+                        alt="Services"
+                        className="w-full h-[80vh] min-h-[448px] object-cover rounded-lg"
+                    />
+                    <div className="absolute bottom-0 w-full p-8 pt-1 bg-[rgb(1,1,1,.6)] rounded-b-lg">
+                        <h2 className=" text-[clamp(34px,3vw,44px)] font-semibold text-white mb-1">Services</h2>
+                        <p className="text-md text-white leading-relaxed mb-5">
+                            We serve homeowners, businesses, commercial facilities, schools,
+                            and municipalities — find out what we can do for you.
+                        </p>
+                        <Link to="/services">
+                            <div
+                                className="inline-flex items-center gap-1.5 text-sm font-bold border border-white 
+                                            rounded-3xl px-4 py-2 text-white hover:bg-white 
+                                            hover:text-black hover:border-black">
+                                Our services
+                            </div>
+                        </Link>
                     </div>
-                </Link>
+
+                    <div className="absolute bottom-0 w-full">
+
+                    </div>
+                </div>
             </div>
-        </>
+        </div>
     )
 }
 

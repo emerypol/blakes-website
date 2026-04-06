@@ -4,7 +4,7 @@ import TwoBox from "../TwoBox";
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
 import bg from "/src/assets/blake_homepage_optimized.jpg";
-import b3 from "/src/assets/blake_we_3.jpg";
+import HomeServices from "../HomeServices";
 
 
 function Home() {
@@ -38,63 +38,11 @@ function Home() {
 
 
 
-
-
                 <div className="bg-[rgba(255, 255, 255, 0.8)] bg-cover  ">
-
-
 
                     <div className=" py-5 md:py-10"></div>
 
-
-
-                    <div className="flex justify-center items-center">
-                        < div className=" w-[90vw] max-w-[1320px]" >
-                            <div className="rounded-lg relative">
-                                <img
-                                    src={b3}
-                                    alt="Services"
-                                    className="w-full h-[80vh] min-h-[448px] object-cover rounded-lg"
-                                />
-                                <div className="absolute bottom-0 w-full p-8 pt-1 bg-[rgb(1,1,1,.6)] rounded-b-lg">
-                                    <h2 className=" text-[clamp(34px,3vw,44px)] font-semibold text-white mb-1">Services</h2>
-                                    <p className="text-md text-white leading-relaxed mb-5">
-                                        We serve homeowners, businesses, commercial facilities, schools,
-                                        and municipalities — find out what we can do for you.
-                                    </p>
-                                    <Link to="/services">
-                                        <div
-                                            className="inline-flex items-center gap-1.5 text-sm font-bold border border-white 
-                                                rounded-3xl px-4 py-2 text-white ">
-                                            Our services
-                                        </div>
-                                    </Link>
-                                </div>
-
-                                <div className="absolute bottom-0 w-full">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <HomeServices />
 
                     <div className=" py-8 md:py-10"></div>
 
@@ -114,7 +62,7 @@ function Home() {
                                         Want a Quote?
                                     </div>
                                     <div className="text-[clamp(15px,4.5vw,19px)] md:text-start z-1 md:text-[clamp(14px,1.7vw,18px)]
-                                     ps-2 text-center">
+                                     ps-2 text-center ">
                                         We'd love to hear from you.
                                     </div>
                                 </div>

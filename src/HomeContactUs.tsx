@@ -11,7 +11,7 @@ function HomeContactUs() {
                 <div className=" flex justify-start items-start  ">
                     <div className="text-white text-[clamp(15px,1.7vw,28px)] 
                         font-bold bg-transparent py-2 px-4 rounded-[400px] leading-tight border-2
-                           whitespace-nowrap z-10">
+                           whitespace-nowrap z-10 hover:bg-white hover:text-black">
                         Contact Us
                     </div>
                 </div>

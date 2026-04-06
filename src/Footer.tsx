@@ -15,10 +15,10 @@ function Footer() {
                     <div className="text-center">
                         (616) 510-3424
                     </div>
-                    <div className="text-center">
+                    <div className="text-center leading-none">
                         blake@wcoastirrigation.com
                     </div>
-                    <div className="flex flex-row justify-center items-center pt-3">
+                    <div className="flex flex-row justify-center items-center pt-2">
                         <a href="https://www.facebook.com/Westcoastirrigationservices/" className="pe-2" target="_blank" rel="noopener noreferrer" >
                             <img src={facebook} className=" w-[32px] h-[32px] object-contain"></img>
                         </a>
@@ -26,6 +26,7 @@ function Footer() {
                             <img src={instagram} className=" w-[32px] h-[32px] object-contain"></img>
                         </a>
                     </div>
+
                 </div>
                 <div className="flex flex-1 flex-col items-center justify-center py-8 md:py-0  ">
                     <Link to="/home">
@@ -33,14 +34,18 @@ function Footer() {
                     </Link>
 
                 </div>
-                <div className="flex flex-1  flex-col items-center justify-center leading-tight  ">
+                <div className="flex flex-1  flex-col items-center justify-center leading-tight relative ">
                     <div className="text-center">
                         6713 Wildwood Dr <br />West Olive, MI 49460
                     </div>
                     <div className="text-center leading-tight mt-2 text-[14px]">
                         Trademark of West Coast Irrigation, Inc. © 2024 All rights reserved.
                     </div>
-
+                    <div className="absolute -bottom-5 text-xs ">
+                        <Link to="/Privacy">
+                            Privacy
+                        </Link>
+                    </div>
                 </div>
             </div>
             <div className="absolute bottom-1 right-8 text-xs text-gray-400 ">
