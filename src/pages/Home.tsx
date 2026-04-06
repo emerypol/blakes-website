@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import HomeContactUs from "../HomeContactUs";
-import HomeServices from "../HomeServices";
 import TwoBox from "../TwoBox";
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
