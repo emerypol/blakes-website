@@ -8,14 +8,15 @@ type NavAndLandingProps = {
 function NavAndLanding({ landMessage = "", bgImg = "", bottomBarMsg = "", }: NavAndLandingProps) {
     return (
         <>
-            <div className="w-full relative" style={{ height: bottomBarMsg === "" ? "86vh" : "48vh" }}>
+            <NavBar></NavBar>
+            <div className="w-full relative" style={{ height: bottomBarMsg === "" ? "86vh" : "58vh" }}>
                 <div className="absolute inset-0 bg-cover bg-center "
                     style={{ backgroundImage: `url(${bgImg})` }}>
                 </div>
 
                 <div className="absolute inset-0 bg-black/30"></div>
 
-                <NavBar></NavBar>
+
 
                 <div className="absolute inset-0 top-80 lg:top-80   text-center text-white
                  text-[clamp(32px,6vw,64px)] font-extrabold leading-[1.3] px-8">

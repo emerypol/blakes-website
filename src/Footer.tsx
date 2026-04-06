@@ -26,7 +26,7 @@ function Footer() {
                 </div>
                 <div className="flex flex-1 flex-col items-center justify-center py-8 md:py-0  ">
                     <Link to="/home">
-                        <img src="/src/assets/WCI_logo_crop_1.jpg" className="w-[250px] h-[100px] object-cover rounded-md" />
+                        <img src="/src/assets/WCI_logo_crop_1.jpg" className="w-[230px] h-[80px] object-cover rounded-md" />
                     </Link>
 
                 </div>
