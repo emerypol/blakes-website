@@ -9,8 +9,9 @@ function NavAndLanding({ landMessage = "", bgImg = "", bottomBarMsg = "", }: Nav
     return (
         <>
             <NavBar></NavBar>
-            <div className="w-full relative" style={{ height: bottomBarMsg === "" ? "86vh" : "58vh" }}>
-                <div className="absolute inset-0 bg-cover bg-center "
+            <div className="w-full relative flex items-center justify-center"
+                style={{ height: bottomBarMsg === "" ? "86vh" : "58vh" }}>
+                <div className="z-0 absolute inset-0 bg-cover bg-center "
                     style={{ backgroundImage: `url(${bgImg})` }}>
                 </div>
 
@@ -18,7 +19,7 @@ function NavAndLanding({ landMessage = "", bgImg = "", bottomBarMsg = "", }: Nav
 
 
 
-                <div className="absolute inset-0 top-80 lg:top-80   text-center text-white
+                <div className="z-2 text-center text-white
                  text-[clamp(32px,6vw,64px)] font-extrabold leading-[1.3] px-8">
 
                     {landMessage}

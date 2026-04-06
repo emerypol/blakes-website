@@ -19,7 +19,7 @@ function Footer() {
                         blake@wcoastirrigation.com
                     </div>
                     <div className="flex flex-row justify-center items-center pt-3">
-                        <a href="https://facebook.com" className="pe-2" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://www.facebook.com/Westcoastirrigationservices/" className="pe-2" target="_blank" rel="noopener noreferrer" >
                             <img src={facebook} className=" w-[32px] h-[32px] object-contain"></img>
                         </a>
                         <a href="https://instagram.com" className="ps-2" target="_blank" rel="noopener noreferrer">
