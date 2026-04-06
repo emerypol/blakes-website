@@ -8,7 +8,7 @@ import whitebg from "/src/assets/white_bg_crop_3.jpg"
 function About() {
     return (
         <>
-            <NavAndLanding bgImg="/src/assets/blake_we_2.jpg" bottomBarMsg="About" />
+            <NavAndLanding bgImg="/src/assets/blake_we_2.jpg" bottomBarMsg="About Us" />
 
 
             <div className={` bg-[rgba(255, 255, 255, 0.8)] bg-cover`}>

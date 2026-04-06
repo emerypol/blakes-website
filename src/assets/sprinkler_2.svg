@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" >
+  <style>
+    .ink { fill: currentColor; }
+    .arc { fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; }
+  </style>
+
+  <!-- Water arcs -->
+  <path class="arc" d="M72,88 Q52,58 32,68"/>
+  <path class="arc" d="M76,80 Q64,50 56,51"/>
+  <path class="arc" d="M80,78 Q80,46 80,43"/>
+  <path class="arc" d="M84,80 Q96,50 104,51"/>
+  <path class="arc" d="M88,88 Q108,58 128,68"/>
+
+  <!-- Droplets -->
+  <circle class="ink" cx="32" cy="71" r="3"/>
+  <circle class="ink" cx="56" cy="54" r="3"/>
+  <circle class="ink" cx="80" cy="43" r="3"/>
+  <circle class="ink" cx="104" cy="54" r="3"/>
+  <circle class="ink" cx="128" cy="71" r="3"/>
+
+  <!-- Head disc -->
+  <ellipse class="ink" cx="80" cy="92" rx="22" ry="7"/>
+
+  <!-- Riser pipe -->
+  <rect class="ink" x="75" y="99" width="10" height="26" rx="2"/>
+
+  <!-- Body -->
+  <rect class="ink" x="65" y="123" width="30" height="14" rx="3"/>
+
+  <!-- Base -->
+  <rect class="ink" x="53" y="134" width="54" height="9" rx="3"/>
+</svg>
