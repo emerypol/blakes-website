@@ -4,9 +4,15 @@ import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
 import bg from "/src/assets/blake_homepage_optimized.jpg";
 import HomeServices from "../HomeServices";
+import preloadImg from "/src/assets/blake_we_2_optimized.jpg";
+import { useEffect } from "react";
 
 
 function Home() {
+    useEffect(() => {
+        const img = new Image()
+        img.src = preloadImg
+    }, [])
     return (
         <>
             <NavAndLanding landMessage="THE BEST IRRIGATION SERVICE IN WEST MICHIGAN"
