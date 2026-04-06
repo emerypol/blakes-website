@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import facebook from "/src/assets/facebook.png";
+import instagram from "/src/assets/instagram.png";
+import logo from "/src/assets/WCI_logo_crop_1.jpg";
 
 function Footer() {
 
@@ -17,16 +20,16 @@ function Footer() {
                     </div>
                     <div className="flex flex-row justify-center items-center pt-3">
                         <a href="https://facebook.com" className="pe-2" target="_blank" rel="noopener noreferrer" >
-                            <img src="/src/assets/facebook.png" className=" w-[32px] h-[32px] object-contain"></img>
+                            <img src={facebook} className=" w-[32px] h-[32px] object-contain"></img>
                         </a>
                         <a href="https://instagram.com" className="ps-2" target="_blank" rel="noopener noreferrer">
-                            <img src="/src/assets/instagram.png" className=" w-[32px] h-[32px] object-contain"></img>
+                            <img src={instagram} className=" w-[32px] h-[32px] object-contain"></img>
                         </a>
                     </div>
                 </div>
                 <div className="flex flex-1 flex-col items-center justify-center py-8 md:py-0  ">
                     <Link to="/home">
-                        <img src="/src/assets/WCI_logo_crop_1.jpg" className="w-[230px] h-[80px] object-cover rounded-md" />
+                        <img src={logo} className="w-[230px] h-[80px] object-cover rounded-md" />
                     </Link>
 
                 </div>

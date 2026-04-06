@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
+import logo from '/src/assets/WCI_logo_crop_1.jpg';
 
 function NavBar() {
     return (
@@ -34,14 +35,14 @@ function NavBar() {
 
                 <div className=" ms-auto pe-4 hidden md:block  ">
                     <Link to="/home">
-                        <img src='/src/assets/WCI_logo_crop_1.jpg' className="w-[140px] h-[46px] object-cover rounded-md" />
+                        <img src={logo} className="w-[140px] h-[46px] object-cover rounded-md" />
                     </Link>
                 </div>
 
                 <div className="px-6   w-full flex flex-row items-center md:hidden ">
                     <div className="flex md:hidden ">
                         <Link to="/home">
-                            <img src='/src/assets/WCI_logo_crop_1.jpg'
+                            <img src={logo}
                                 className=" w-[140px] h-[46px]
                         object-cover rounded-md" />
                         </Link>

@@ -1,10 +1,12 @@
+import twitter from "/src/assets/twitter.png";
+
 function FounderCard() {
     return (
         <div className="flex justify-center">
             <div className="max-w-[424px] sm:max-w-[620px] w-[90vw]">
                 <div className="flex flex-col sm:flex-row  rounded-2xl shadow-lg p-6 border border-[#e2e2e2] bg-white
                                 justify-center items-center sm:items-start">
-                    <img src="/src/assets/twitter.png"
+                    <img src={twitter}
                         className="h-[120px] w-[120px] object-cover rounded-2xl" />
                     <div className="flex flex-col justify-center sm:justify-start px-5">
                         <div className="text-[rgba(11,93,185,0.9)] text-[clamp(5px,8vw,34px)] md:text-[34px] font-semibold

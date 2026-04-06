@@ -3,13 +3,15 @@ import HomeContactUs from "../HomeContactUs";
 import TwoBox from "../TwoBox";
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
+import bg from "/src/assets/blake_homepage_optimized.jpg";
+import b3 from "/src/assets/blake_we_3.jpg";
 
 
 function Home() {
     return (
         <>
             <NavAndLanding landMessage="THE BEST IRRIGATION SERVICE IN WEST MICHIGAN"
-                bgImg="/src/assets/blake_homepage_optimized.jpg" />
+                bgImg={bg} />
 
             <div className="">
                 <div className="flex justify-center items-center 
@@ -50,7 +52,7 @@ function Home() {
                         < div className=" w-[90vw] max-w-[1320px]" >
                             <div className="rounded-lg relative">
                                 <img
-                                    src="/src/assets/blake_we_3.jpg"
+                                    src={b3}
                                     alt="Services"
                                     className="w-full h-[80vh] object-cover rounded-lg"
                                 />

@@ -1,12 +1,12 @@
 import ContactForm from "../ContactForm";
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
-
+import bg from "/src/assets/blake_we_2.jpg";
 
 function ContactUs() {
     return (
         <>
-            <NavAndLanding bgImg="/src/assets/blake_we_2.jpg" bottomBarMsg="Contact Us" />
+            <NavAndLanding bgImg={bg} bottomBarMsg="Contact Us" />
             <div className={` bg-[rgba(255, 255, 255, 0.8)] bg-cover flex justify-center items-center`}>
 
 
