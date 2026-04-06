@@ -32,7 +32,7 @@ function Footer() {
                 </div>
                 <div className="flex flex-1  flex-col items-center justify-center leading-tight  ">
                     <div className="text-center">
-                        6713 Wildwood Drive, <br />West Olive, MI 49460
+                        6713 Wildwood Dr <br />West Olive, MI 49460
                     </div>
                     <div className="text-center leading-tight mt-2 text-[14px]">
                         Trademark of West Coast Irrigation, Inc. © 2024 All rights reserved.

@@ -20,10 +20,9 @@ function ContactForm() {
                         </div>
                         <div>
                             <p className="text-xs lg:text-sm text-gray-400 mb-0.5">Phone</p>
-                            <p className="text-sm lg:text-base font-medium text-gray-900">(720) 555-0192</p>
+                            <p className="text-sm lg:text-base font-medium text-gray-900">(616) 510-3424</p>
                         </div>
                     </div>
-
                     <div className="flex items-start gap-4">
                         <div className="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center shrink-0">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -33,7 +32,7 @@ function ContactForm() {
                         </div>
                         <div>
                             <p className="text-xs lg:text-sm text-gray-400 mb-0.5">Email</p>
-                            <p className="text-sm lg:text-base font-medium text-gray-900">hello@yourcompany.com</p>
+                            <p className="text-sm lg:text-base font-medium text-gray-900">blake@wcoastirrigation.com</p>
                         </div>
                     </div>
 
@@ -46,7 +45,7 @@ function ContactForm() {
                         </div>
                         <div>
                             <p className="text-xs lg:text-sm text-gray-400 mb-0.5">Address</p>
-                            <p className="text-sm lg:text-base font-medium text-gray-900">1234 Maple St<br />Lakewood, CO 80226</p>
+                            <p className="text-sm lg:text-base font-medium text-gray-900"> 6713 Wildwood Dr <br /> West Olive, MI 49460</p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +60,7 @@ function ContactForm() {
                 <div className="grid grid-cols-2 gap-4 mb-4">
                     <div>
                         <label className="block text-xs lg:text-sm text-gray-500 mb-1">First name</label>
-                        <input type="text" placeholder="Jane"
+                        <input type="text" placeholder="John"
                             className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base" />
                     </div>
                     <div>
@@ -73,19 +72,20 @@ function ContactForm() {
 
                 <div className="mb-4">
                     <label className="block text-xs lg:text-sm text-gray-500 mb-1">Email address</label>
-                    <input type="email" placeholder="jane@example.com"
+                    <input type="email" placeholder="john@example.com"
                         className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base" />
                 </div>
 
                 <div className="mb-4">
                     <label className="block text-xs lg:text-sm text-gray-500 mb-1">Phone number</label>
-                    <input type="tel" placeholder="+1 (555) 000-0000"
+                    <input type="tel" placeholder="(616) 000-0000"
                         className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base" />
                 </div>
 
                 <div className="mb-4">
                     <label className="block text-xs lg:text-sm text-gray-500 mb-1">Service needed</label>
-                    <select className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base appearance-none">
+                    <select defaultValue={""}
+                        className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base appearance-none">
                         <option value="" disabled>Select a service...</option>
                         <option>Irrigation installation</option>
                         <option>Sprinkler repair</option>
@@ -97,10 +97,10 @@ function ContactForm() {
 
                 <div className="mb-6">
                     <label className="block text-xs lg:text-sm text-gray-500 mb-1">
-                        Message <span className="text-gray-400">(optional)</span>
+                        Description <span className="text-gray-400">(optional)</span>
                     </label>
                     <textarea
-                        placeholder="Describe your property or setup..."
+                        placeholder="Describe what you need"
                         className="w-full bg-transparent border-0 border-b border-gray-300 focus:border-blue-600 focus:outline-none pb-1.5 text-sm lg:text-base resize-none min-h-20"
                     />
                 </div>

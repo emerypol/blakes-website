@@ -61,11 +61,13 @@ function Home() {
                                         We serve homeowners, businesses, commercial facilities, schools,
                                         and municipalities — find out what we can do for you.
                                     </p>
-                                    <a href="/services"
-                                        className="inline-flex items-center gap-1.5 text-sm font-bold border border-white 
-                                    rounded-3xl px-4 py-2 text-white ">
-                                        Our services
-                                    </a>
+                                    <Link to="/services">
+                                        <div
+                                            className="inline-flex items-center gap-1.5 text-sm font-bold border border-white 
+                                                rounded-3xl px-4 py-2 text-white ">
+                                            Our services
+                                        </div>
+                                    </Link>
                                 </div>
 
                                 <div className="absolute bottom-0 w-full">
