@@ -5,14 +5,14 @@ import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import ScrollToTop from "./ScrollToTop";
 import Privacy from "./Privacy";
-import preloadImg from "/src/assets/blake_we_2_optimized.jpg";
+import preloadImgDK from "/src/assets/blake_we_2_desktop.jpg";
 import { useEffect } from "react";
 
 
 function App() {
   useEffect(() => {
     const img = new Image()
-    img.src = preloadImg
+    img.src = preloadImgDK
   }, [])
   return (
     <>

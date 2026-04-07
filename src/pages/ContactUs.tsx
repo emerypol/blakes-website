@@ -1,12 +1,12 @@
 import ContactForm from "../ContactForm";
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
-import bg from "/src/assets/blake_we_2_optimized.jpg";
+import bgdk from "/src/assets/blake_we_2_desktop.jpg";
 
 function ContactUs() {
     return (
         <>
-            <NavAndLanding bgImg={bg} bottomBarMsg="Contact Us" />
+            <NavAndLanding bgImg={bgdk} bottomBarMsg="Contact Us" />
             <div className={` bg-[rgba(255, 255, 255, 0.8)] bg-cover flex justify-center items-center`}>
 
 

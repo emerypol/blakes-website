@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import './HomeServices.css'
-import b3 from "/src/assets/blake_we_3_optimized.jpg";
+import b3 from "/src/assets/blake_we_3_desktop.jpg";
 
 
 function HomeServices() {

@@ -2,14 +2,28 @@ import HomeContactUs from "../HomeContactUs";
 import TwoBox from "../TwoBox";
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
-import bg from "/src/assets/blake_homepage_optimized.jpg";
+import bgDesktop from "/src/assets/blake_homepage_desktop.jpg";
+import bgMobile from "/src/assets/blake_homepage_mobile.jpg"
 import HomeServices from "../HomeServices";
+import { useEffect, useState } from "react";
 
 
 function Home() {
 
+    const [bg, setBg] = useState(window.innerWidth < 640 ? bgMobile : bgDesktop)
+
+    useEffect(() => {
+        const handleResize = () => {
+            setBg(window.innerWidth < 640 ? bgMobile : bgDesktop)
+        }
+        window.addEventListener('resize', handleResize)
+        return () => window.removeEventListener('resize', handleResize)
+    }, [])
+
     return (
         <>
+
+
             <NavAndLanding landMessage="THE BEST IRRIGATION SERVICE IN WEST MICHIGAN"
                 bgImg={bg} />
 
@@ -50,7 +64,7 @@ function Home() {
                     <div className="flex justify-center items-center">
                         <div className="flex flex-col md:flex-row rounded-lg 
                                 w-[90vw] md:w-[50vw] h-[30vh] min-h-[206px] md:h-[26vh] max-w-[1320px] relative
-                                bg-[url('/src/assets/blake_we_4_crop_optimized.jpg')] bg-cover bg-center 
+                                bg-[url('/src/assets/blake_we_4_crop_desktop.jpg')] bg-cover bg-center 
                                 items-center justify-end">
                             <div className="absolute inset-0 bg-black/25 z-0 rounded-lg" />
 

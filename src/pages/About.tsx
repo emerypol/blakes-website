@@ -2,12 +2,12 @@ import AboutCards from "../AboutCards";
 import Footer from "../Footer";
 import FounderCard from "../FounderCard";
 import NavAndLanding from "../NavAndLanding";
-import bg from "/src/assets/blake_we_2_optimized.jpg";
+import bgdk from "/src/assets/blake_we_2_desktop.jpg";
 
 function About() {
     return (
         <>
-            <NavAndLanding bgImg={bg} bottomBarMsg="About Us" />
+            <NavAndLanding bgImg={bgdk} bottomBarMsg="About Us" />
 
 
             <div className={` bg-[rgba(255, 255, 255, 0.8)] bg-cover`}>
