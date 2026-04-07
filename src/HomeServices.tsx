@@ -13,6 +13,7 @@ function HomeServices() {
                         src={b3}
                         alt="Services"
                         className="w-full h-[80vh] min-h-[448px] object-cover rounded-lg"
+                        loading="lazy"
                     />
                     <div className="absolute bottom-0 w-full p-8 pt-1 bg-[rgb(1,1,1,.6)] rounded-b-lg">
                         <h2 className=" text-[clamp(34px,3vw,44px)] font-semibold text-white mb-1">Services</h2>
