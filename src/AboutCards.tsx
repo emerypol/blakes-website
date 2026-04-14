@@ -1,25 +1,39 @@
 let card1 = ["#EEEDFE",
-    <svg viewBox="0 0 24 24" fill="none" width="24" height="24"
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none"
         stroke="#534AB7" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path>
-        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        <path d="M12 22V12"></path>
+        <path d="M12 12C12 12 7 9 7 5a5 5 0 0110 0c0 4-5 7-5 7z"></path>
+        <path d="M12 16c0 0-4 2-4 0"></path>
     </svg>,
-    "WHO WE ARE", "West Coast Irrigation", "West Coast Irrigation Services provides professional, full- service irrigation and water management solutions throughout West Michigan.From custom system design and precision installation to expert repairs and seasonal maintenance, we deliver reliable solutions built for long - term performance."];
+    "LEGACY",
+    "A Legacy Built on Water & Hard Work",
+    "At West Coast Irrigation Services, irrigation isn't just what we do—it's who we are. Our owner, Blake, has been immersed in the industry since birth. Growing up in a family of irrigation professionals, he learned the trade at the side of his grandfather, father, uncles, and cousins. This multi-generational expertise means that when we step onto your property, we bring decades of passed-down knowledge, refined techniques, and a deep-rooted commitment to quality."
+];
 
 let card2 = ["#E1F5EE",
     <svg viewBox="0 0 24 24" width="24" height="24" fill="none"
-        stroke="#0F6E56" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
-        <circle cx="12" cy="10" r="3"></circle>
+        stroke="#0F6E56" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="9" cy="6" r="2"></circle>
+        <circle cx="15" cy="6" r="2"></circle>
+        <circle cx="12" cy="5" r="1.2"></circle>
+        <path d="M5 22v-3a4 4 0 014-4h6a4 4 0 014 4v3"></path>
+        <path d="M9 15v7"></path>
+        <path d="M15 15v7"></path>
     </svg>,
-    "WHERE TO FIND US", "West Michigan", "We proudly provide irrigation services throughout Holland, Grand Haven, Zeeland, West Olive, and Saugatuck.With deep roots in the region, we understand the unique needs of West Michigan properties and are committed to delivering responsive, dependable service across the lakeshore communities we call home."];
+    "FAMILY",
+    "Family Owned & Locally Operated",
+    "Family Owned & Locally Operated. We are a family-owned small business in every sense of the word. While Blake is out in the field ensuring your systems are running perfectly, his wife, Mallory, and their two sons, Bodhi and Bali, are the heartbeat of the operation behind the scenes."
+];
 let card3 = ["#FAEEDA",
     <svg viewBox="0 0 24 24" width="24" height="24" fill="none"
-        stroke="#854F0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        stroke="#854F0B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="8" r="6"></circle>
         <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"></path>
     </svg>,
-    "OUR TRACK RECORD", "40 Years of Expertise", "For four decades, West Coast Irrigation Services has built a reputation for professionalism, reliability, and quality craftsmanship. Our extensive experience in water management enables us to handle every phase of an irrigation system with confidence, precision, and care."];
+    "COMMUNITY",
+    "Rooted in Community.",
+    "Our commitment to our neighbors extends beyond irrigation. Blake is proud to serve as a volunteer firefighter for Port Sheldon Township, dedicating his time to the safety and well-being of the local area. That same spirit of service and reliability is what drives our business. We don't just work here; we live here, and we treat every client's lawn like it's our own."
+];
 
 
 
@@ -30,7 +44,8 @@ function AboutCards() {
     return (
         <>
             <div className=" py-12 flex justify-center">
-                <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center items-center md:items-start max-w-[1320px] w-[88vw]">
+                <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center items-center md:items-stretch 
+                max-w-[1320px] w-[88vw] ">
                     {cards.map((item) => (
                         <div
                             className="flex flex-col flex-1 bg-[rgba(11,93,185,0.9)] rounded-2xl sm:min-w-[300px] max-w-[424px]
@@ -54,9 +69,6 @@ function AboutCards() {
                             </div>
                         </div>
                     ))}
-
-
-
                 </div>
             </div>
 

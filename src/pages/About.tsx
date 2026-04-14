@@ -7,7 +7,7 @@ import bgdk from "/src/assets/blake_we_2_desktop.jpg";
 function About() {
     return (
         <>
-            <NavAndLanding bgImg={bgdk} bottomBarMsg="About Us" />
+            <NavAndLanding bgImg={bgdk} bottomBarMsg="About West Coast Irrigation Services" />
 
 
             <div className={` bg-[rgba(255, 255, 255, 0.8)] bg-cover`}>

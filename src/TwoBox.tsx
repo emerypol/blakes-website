@@ -83,3 +83,9 @@ function TwoBox({
 }
 
 export default TwoBox;
+
+
+/*
+At West Coast Irrigation Services, irrigation isn't just what we do—it’s who we are. Our owner, Blake, has been immersed in the industry since birth. Growing up in a family of irrigation professionals, he learned the trade at the side of his grandfather, father, uncles, and cousins. This multi-generational expertise means that when we step onto your property, we bring decades of passed-down knowledge, refined techniques, and a deep-rooted commitment to quality.
+
+*/
