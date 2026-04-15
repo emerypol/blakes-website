@@ -1,7 +1,6 @@
 import Footer from "../Footer";
 import NavAndLanding from "../NavAndLanding";
 import ServiceCards from "../ServiceCards";
-import ServiceIcons from "../ServiceIcons";
 import bgdk from "/src/assets/blake_we_2_desktop.jpg";
 
 function Services() {
