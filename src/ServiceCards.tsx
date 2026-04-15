@@ -11,7 +11,7 @@ const services: Service[] = [
         title: "Installation",
         desc: "We provide professional system installations using high-quality components to ensure your landscape receives precise and efficient coverage. Our team handles the entire process from start to finish, leaving you with a reliable, turn-key watering solution.",
         icon: (
-            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="64" height="64" viewBox="-4 -4 32 32" fill="none" stroke="black" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                 <polyline points="14 2 14 8 20 8" />
                 <line x1="12" y1="18" x2="12" y2="12" />
@@ -23,7 +23,7 @@ const services: Service[] = [
         title: "Irrigation Design",
         desc: "Our custom design process tailors every zone and nozzle to the specific layout and plant life of your property. By calculating optimal water pressure and placement, we maximize system efficiency while preventing wasteful runoff.",
         icon: (
-            <svg fill="#000000" height="64" width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <svg fill="#000000" height="64" width="64" xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 700 700">
                 <g>
                     <g>
                         <path d="M437.009,0c-33.227,0-61.46,21.731-71.275,51.72l-219.462,0.026C136.465,21.743,108.226,0,74.988,0
@@ -45,7 +45,7 @@ const services: Service[] = [
         title: "Service and Maintenance",
         desc: "We offer comprehensive service and routine check-ups to keep your irrigation system running at peak performance throughout the season. From fixing minor leaks to adjusting spray patterns, we ensure every drop is used effectively.",
         icon: (
-            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="64" height="64" viewBox="-4 -4 32 32" fill="none" stroke="black" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
             </svg>
         ),
@@ -55,7 +55,7 @@ const services: Service[] = [
         desc: "Our well maintenance service ensures your water source remains clean, reliable, and operating at peak efficiency year-round. We perform thorough inspections and system checks to identify potential issues before they lead to costly interruptions or water pressure loss.",
         icon: (
             <svg height="64" width="64" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"  >
+                viewBox="-90 -90 690 690"  >
                 <g>
                     <g>
                         <polygon fill="currentColor" points="52.068,507.661 86.78,507.661 86.78,125.831 52.068,125.831 		" />
@@ -104,7 +104,7 @@ const services: Service[] = [
         desc: "We provide comprehensive diagnostics and precision repairs to keep your pump running at peak efficiency throughout the season. Our proactive maintenance helps prevent unexpected breakdowns and ensures your system maintains the consistent water pressure needed for a healthy landscape.",
         icon: (
             <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"
-                width="64" height="64" viewBox="0 0 535.5 535.5"   >
+                width="64" height="64" viewBox="-85 -85 705 705"   >
                 <g>
                     <polygon points="261.591,505.856 191.785,505.856 176.963,505.856 157.359,505.856 157.359,535.5 276.413,535.5 276.413,505.856 
 		266.372,505.856 	"/>
@@ -132,7 +132,7 @@ const services: Service[] = [
         desc: "Our specialized locating service identifies the exact path of underground lines and hidden valves to prevent damage during future landscaping projects. This precision saves you time and money by eliminating guesswork and unnecessary digging.",
         icon: (
             <svg height="64" width="64" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"  >
+                viewBox="-100 -100 700 700"  >
                 <g>
                     <path d="M312.069,53.445c-71.26-71.26-187.194-71.26-258.454,0c-71.261,71.26-71.261,187.206,0,258.466
 		c71.26,71.26,187.194,71.26,258.454,0S383.329,124.705,312.069,53.445z M286.694,286.536
@@ -152,7 +152,7 @@ const services: Service[] = [
         title: "Winterizing",
         desc: "Protect your investment from freezing temperatures with our thorough professional blowout and shutdown service. We remove all water from the lines to prevent pipe bursts and ensure your system is ready for a smooth startup in the spring.",
         icon: (
-            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="64" height="64" viewBox="-4 -4 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2V18M12 22V18M12 18L15 21M12 18L9 21M15 3L12 6L9 3" stroke="black" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M3.33978 7.00042L6.80389 9.00042M6.80389 9.00042L17.1962 15.0004M6.80389 9.00042L5.70581 4.90234M6.80389 9.00042L2.70581 10.0985M17.1962 15.0004L20.6603 17.0004M17.1962 15.0004L21.2943 13.9023M17.1962 15.0004L18.2943 19.0985" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M20.66 7.00042L17.1959 9.00042M17.1959 9.00042L6.80364 15.0004M17.1959 9.00042L18.294 4.90234M17.1959 9.00042L21.294 10.0985M6.80364 15.0004L3.33954 17.0004M6.80364 15.0004L2.70557 13.9023M6.80364 15.0004L5.70557 19.0985" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
@@ -165,7 +165,7 @@ const services: Service[] = [
         icon: (
 
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                width="64" height="64" viewBox="240 0 800 950"
+                width="64" height="64" viewBox="280 0 800 1080"
                 preserveAspectRatio="xMidYMid meet">
                 <g transform="translate(0.000000,996.000000) scale(0.100000,-0.100000)"
                     fill="#000000" stroke="none">
@@ -453,21 +453,22 @@ export default function ServiceCards() {
     return (
         <section className="w-full px-5 py-12 sm:px-10 lg:px-16 lg:py-16">
             <div className="mx-auto w-full max-w-[90vw] 2xl:max-w-[1320px]">
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
                     {services.map((service) => (
                         <div
                             key={service.title}
-                            className="flex flex-col gap-3 rounded-xl border border-gray-200 bg-white p-5 sm:p-6 "
+                            className="flex flex-col gap-3 rounded-xl border border-gray-200 bg-white p-5 sm:p-6 
+                                    border-t-3 border-t-[#1a56a8] shadow-lg"
                         >
                             <div className="flex items-end gap-3">
                                 <div className=" p-2 rounded-lg bg-[#dbeafe]">
                                     {service.icon}
                                 </div>
-                                <p className="text-[clamp(26px,3vw,30px)] ms-3 font-semibold leading-snug text-gray-900 ">
+                                <p className="text-[clamp(20px,2.5vw,30px)] ms-3 sm:ms-0 md:ms-3 font-semibold leading-snug text-gray-900 ">
                                     {service.title}
                                 </p>
                             </div>
-                            <p className="text-[clamp(14px,1.5vw,18px)] leading-relaxed text-gray-500 sm:text-sm 
+                            <p className="text-[clamp(14px,1.5vw,18px)] leading-relaxed text-gray-600 sm:text-sm 
                                 ">
                                 {service.desc}
                             </p>
