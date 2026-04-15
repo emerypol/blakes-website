@@ -16,7 +16,7 @@ let card2 = ["#E1F5EE",
     "Family Owned & Locally Operated",
     "Family Owned & Locally Operated. We are a family-owned small business in every sense of the word. While Blake is out in the field ensuring your systems are running perfectly, his wife, Mallory, and their two sons, Bodhi and Bali, are the heartbeat of the operation behind the scenes."
 ];
-let card3 = ["F3E5FF",
+let card3 = ["#F3E5FF",
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="265 37 150 146" width="26" height="26">
         <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="#FFD84D" stroke="#000000" stroke-width="5" stroke-linejoin="round" transform="translate(316,68)" />
         <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="#FFD84D" stroke="#000000" stroke-width="5" stroke-linejoin="round" transform="translate(364,68)" />

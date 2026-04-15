@@ -2,6 +2,7 @@ import AboutCards from "../AboutCards";
 import Footer from "../Footer";
 import FounderCard from "../FounderCard";
 import NavAndLanding from "../NavAndLanding";
+import WhyChooseUs from "../WhyChooseUs";
 import bgdk from "/src/assets/blake_we_2_desktop.jpg";
 
 function About() {
@@ -14,6 +15,7 @@ function About() {
 
                 <AboutCards />
 
+                <WhyChooseUs />
 
                 <FounderCard />
                 <div className="w-full mt-12" ></div>
