@@ -45,7 +45,7 @@ function AboutCards() {
                     {cards.map((item) => (
                         <div
                             className="flex flex-col flex-1 bg-[rgba(11,93,185,0.9)] rounded-2xl sm:min-w-[380px] max-w-[424px]
-                      px-6 py-6   justify-start items-start text-white overflow-hidden isolate border-1 border-[rgba(11,93,185,0.9)]"
+                      px-6 py-6   justify-start items-start text-white  isolate border-1 border-[rgba(11,93,185,0.9)]"
                         >
                             <div className="rounded-lg flex justify-center items-center p-2" style={{ background: `${item[0]}` }}>
                                 {item[1]}
@@ -75,27 +75,3 @@ function AboutCards() {
 
 export default AboutCards;
 
-/*
-
-<div className="flex flex-col bg-red-700 rounded-2xl w-[300px] h-[400px] mx-2 my-5">
-                        <div className="title">
-                        </div>
-                        <div className="desc">
-                            </div>
-                    </div>
-                    <div className="flex flex-col bg-red-700 rounded-2xl w-[300px] h-[400px] mx-2">
-                        <div className="title">
-                            
-                        </div>
-                        <div className="desc">
-                                                    </div>
-                    </div>
-
-
-
-                    {
-                        Object.keys(cards).map((key) => (
-                            
-                        ));
-                    }
-                    */

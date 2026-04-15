@@ -41,7 +41,7 @@ function Footer() {
                     <div className="text-center leading-tight mt-2 text-[14px]">
                         © 2025 West Coast Irrigation Service, LLC. All rights reserved.
                     </div>
-                    <div className="absolute -bottom-3 text-xs ">
+                    <div className="absolute -bottom-5 text-xs ">
                         <a href="/privacy.html">
                             Privacy
                         </a>
