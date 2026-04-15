@@ -39,7 +39,7 @@ let cards = [card1, card2, card3];
 function AboutCards() {
     return (
         <>
-            <div className=" py-12 flex justify-center">
+            <div className="py-12 flex justify-center">
                 <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center items-center md:items-stretch 
                 max-w-[1320px] w-[88vw] ">
                     {cards.map((item) => (
