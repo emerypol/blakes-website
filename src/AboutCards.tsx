@@ -45,7 +45,7 @@ function AboutCards() {
                     {cards.map((item) => (
                         <div
                             className="flex flex-col flex-1 bg-[rgba(11,93,185,0.9)] rounded-2xl sm:min-w-[380px] max-w-[424px]
-                     shadow-lg px-6 py-6 border border-[#e2e2e2] justify-start items-start text-white"
+                      px-6 py-6   justify-start items-start text-white overflow-hidden isolate border-1 border-[rgba(11,93,185,0.9)]"
                         >
                             <div className="rounded-lg flex justify-center items-center p-2" style={{ background: `${item[0]}` }}>
                                 {item[1]}

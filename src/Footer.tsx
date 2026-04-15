@@ -39,12 +39,12 @@ function Footer() {
                         6713 Wildwood Dr <br />West Olive, MI 49460
                     </div>
                     <div className="text-center leading-tight mt-2 text-[14px]">
-                        Trademark of West Coast Irrigation, Inc. © 2024 All rights reserved.
+                        © 2025 West Coast Irrigation Service, LLC. All rights reserved.
                     </div>
-                    <div className="absolute -bottom-5 text-xs ">
-                        <Link to="/Privacy">
+                    <div className="absolute -bottom-3 text-xs ">
+                        <a href="/privacy.html">
                             Privacy
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
